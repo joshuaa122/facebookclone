@@ -1,0 +1,39 @@
+body
+{
+    background-color: wheat;
+}
+.top-header
+{
+    margin-top: 125px;
+}
+form
+{
+    border: 2px solid white;
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    
+}
+.input[type=text] , [type=password] , [type=submit]
+{
+  padding: 10px;
+}
+
+@media (max-width:800px) {
+
+    form
+{
+    
+    margin-left: 0px;
+   width: 100%;
+    
+}
+
+.top-header
+{
+    margin-top: 15px;
+}
+    
+}
+
